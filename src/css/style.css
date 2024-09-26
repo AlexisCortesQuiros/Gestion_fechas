@@ -1,0 +1,31 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_52683-66443.jpg'); /* Asegúrate de que la ruta sea correcta */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+}
+
+
+/* Contenedor principal */
+#cuentaAtras {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;  /* Ajustar el tamaño */
+  color: green;    /* Color inicial */
+}
+
+/* Estilo para cada parte del contador */
+#cuentaAtras div {
+  margin: 0 20px; /* Espacio entre los elementos */
+}
+
+
